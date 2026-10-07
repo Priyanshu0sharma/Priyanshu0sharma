@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 490" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#0c1428" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d162d" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#080e1c" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" />
+      <stop offset="50%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#ff354f" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.4" />
+    </linearGradient>
+
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.4" />
+      <circle cx="30" cy="30" r="0.8" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-main { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    
+    @keyframes pulseCardBorder {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; }
+    }
+    .pulse-border { animation: pulseCardBorder 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="920" height="490" rx="16" fill="url(#bgGrad)" />
+  <rect width="920" height="490" rx="16" fill="url(#gridPattern)" />
+  <rect x="1" y="1" width="918" height="488" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.2" stroke-opacity="0.4" />
+
+  <!-- Ambient Nebulae -->
+  <circle cx="150" cy="200" r="160" fill="#247bff" opacity="0.08" filter="url(#glowEffect)" />
+  <circle cx="750" cy="300" r="180" fill="#ff354f" opacity="0.08" filter="url(#glowEffect)" />
+
+  <!-- Section Header -->
+  <g transform="translate(36, 26)">
+    <text x="0" y="12" fill="#ff758c" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">04 // FLAGSHIP PROJECTS</text>
+    <text x="260" y="12" fill="#64748b" class="font-main" font-size="11.5">Engineered for Scalable Impact • Real Repositories &amp; Products</text>
+  </g>
+
+  <!-- ================= 2x2 PROJECT GRID ================= -->
+  <!-- ================= CARD 1: ROOT OF WEB ================= -->
+  <g transform="translate(32, 54)">
+    <rect width="414" height="195" rx="12" fill="url(#cardGrad)" stroke="url(#cardBorder1)" stroke-width="1.2" class="pulse-border" />
+    
+    <!-- Top Row: Icon + Title + Status Badge -->
+    <g transform="translate(20, 20)">
+      <rect width="36" height="36" rx="8" fill="#0f172a" stroke="#247bff" stroke-width="1" />
+      <path d="M 12 18 L 24 18 M 18 12 L 18 24 M 14 14 L 22 22 M 22 14 L 14 22" stroke="#38bdf8" stroke-width="1.6" stroke-linecap="round" />
+      
+      <text x="48" y="18" fill="#ffffff" class="font-main" font-size="16" font-weight="800">Root of Web</text>
+      <text x="48" y="32" fill="#38bdf8" class="font-mono" font-size="10" font-weight="600">FOUNDER &amp; PRODUCT ARCHITECT</text>
+      
+      <!-- Live Badge -->
+      <g transform="translate(290, 4)">
+        <rect width="66" height="20" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="0.8" />
+        <circle cx="10" cy="10" r="3" fill="#10b981" />
+        <text x="18" y="14" fill="#6ee7b7" class="font-mono" font-size="9" font-weight="700">● LIVE</text>
+      </g>
+    </g>
+
+    <!-- Description -->
+    <text x="20" y="86" fill="#cbd5e1" class="font-main" font-size="12">
+      Creative web agency &amp; digital platform crafting high-performance
+    </text>
+    <text x="20" y="104" fill="#94a3b8" class="font-main" font-size="12">
+      web applications, branding, and digital solutions for modern businesses.
+    </text>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(20, 126)">
+      <rect width="56" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="28" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Next.js</text>
+
+      <rect x="64" width="76" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="102" y="15" fill="#38bdf8" class="font-mono" font-size="9.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="148" width="62" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="179" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Tailwind</text>
+
+      <rect x="218" width="54" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="245" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Vercel</text>
+    </g>
+
+    <!-- URL Indicator -->
+    <g transform="translate(20, 168)">
+      <text x="0" y="12" fill="#38bdf8" class="font-mono" font-size="10.5">🔗 root-of-web.vercel.app</text>
+      <text x="310" y="12" fill="#94a3b8" class="font-main" font-size="10.5">Explore →</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 2: DRx HOME CARE ================= -->
+  <g transform="translate(474, 54)">
+    <rect width="414" height="195" rx="12" fill="url(#cardGrad)" stroke="url(#cardBorder2)" stroke-width="1.2" class="pulse-border" />
+    
+    <!-- Top Row: Icon + Title + Status Badge -->
+    <g transform="translate(20, 20)">
+      <rect width="36" height="36" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" />
+      <path d="M 18 12 L 18 24 M 12 18 L 24 18" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" />
+      
+      <text x="48" y="18" fill="#ffffff" class="font-main" font-size="16" font-weight="800">DRx Home Care</text>
+      <text x="48" y="32" fill="#34d399" class="font-mono" font-size="10" font-weight="600">FULL-STACK HEALTHCARE PLATFORM</text>
+      
+      <!-- Live Badge -->
+      <g transform="translate(280, 4)">
+        <rect width="76" height="20" rx="10" fill="#064e3b" stroke="#10b981" stroke-width="0.8" />
+        <circle cx="10" cy="10" r="3" fill="#10b981" />
+        <text x="18" y="14" fill="#6ee7b7" class="font-mono" font-size="9" font-weight="700">● PRODUCT</text>
+      </g>
+    </g>
+
+    <!-- Description -->
+    <text x="20" y="86" fill="#cbd5e1" class="font-main" font-size="12">
+      Home healthcare, medical assistance &amp; ambulance booking service
+    </text>
+    <text x="20" y="104" fill="#94a3b8" class="font-main" font-size="12">
+      platform connecting patients with emergency medical aid in real time.
+    </text>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(20, 126)">
+      <rect width="56" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="28" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Next.js</text>
+
+      <rect x="64" width="62" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="95" y="15" fill="#f59e0b" class="font-mono" font-size="9.5" text-anchor="middle">Firebase</text>
+
+      <rect x="134" width="62" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="165" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Tailwind</text>
+
+      <rect x="204" width="68" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="238" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Maps API</text>
+    </g>
+
+    <!-- URL Indicator -->
+    <g transform="translate(20, 168)">
+      <text x="0" y="12" fill="#34d399" class="font-mono" font-size="10.5">📦 Emergency Care Architecture</text>
+      <text x="310" y="12" fill="#94a3b8" class="font-main" font-size="10.5">Explore →</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 3: KISANFLOW ================= -->
+  <g transform="translate(32, 265)">
+    <rect width="414" height="195" rx="12" fill="url(#cardGrad)" stroke="url(#cardBorder3)" stroke-width="1.2" class="pulse-border" />
+    
+    <!-- Top Row: Icon + Title + Status Badge -->
+    <g transform="translate(20, 20)">
+      <rect width="36" height="36" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1" />
+      <path d="M 18 24 C 18 16 24 14 24 14 C 24 14 24 20 18 24 Z M 18 24 C 18 18 12 16 12 16 C 12 16 12 22 18 24 Z" stroke="#fbbf24" stroke-width="1.5" fill="none" />
+      
+      <text x="48" y="18" fill="#ffffff" class="font-main" font-size="16" font-weight="800">KisanFlow</text>
+      <text x="48" y="32" fill="#fbbf24" class="font-mono" font-size="10" font-weight="600">AI-POWERED AGRI-CREDIT ENGINE</text>
+      
+      <!-- Status Badge -->
+      <g transform="translate(270, 4)">
+        <rect width="86" height="20" rx="10" fill="#451a03" stroke="#f59e0b" stroke-width="0.8" />
+        <circle cx="10" cy="10" r="3" fill="#fbbf24" />
+        <text x="18" y="14" fill="#fde68a" class="font-mono" font-size="9" font-weight="700">● PROTOTYPE</text>
+      </g>
+    </g>
+
+    <!-- Description -->
+    <text x="20" y="86" fill="#cbd5e1" class="font-main" font-size="12">
+      Intelligent credit score evaluation and farm risk appraisal engine
+    </text>
+    <text x="20" y="104" fill="#94a3b8" class="font-main" font-size="12">
+      providing fair, algorithmic financial accessibility for farmers.
+    </text>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(20, 126)">
+      <rect width="56" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="28" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Next.js</text>
+
+      <rect x="64" width="70" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="99" y="15" fill="#fbbf24" class="font-mono" font-size="9.5" text-anchor="middle">Python / AI</text>
+
+      <rect x="142" width="78" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="181" y="15" fill="#60a5fa" class="font-mono" font-size="9.5" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="228" width="76" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="266" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Data Models</text>
+    </g>
+
+    <!-- URL Indicator -->
+    <g transform="translate(20, 168)">
+      <text x="0" y="12" fill="#fbbf24" class="font-mono" font-size="10.5">🌾 Agritech ML Risk Models</text>
+      <text x="310" y="12" fill="#94a3b8" class="font-main" font-size="10.5">Explore →</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 4: STOCKPILOT AI ================= -->
+  <g transform="translate(474, 265)">
+    <rect width="414" height="195" rx="12" fill="url(#cardGrad)" stroke="url(#cardBorder4)" stroke-width="1.2" class="pulse-border" />
+    
+    <!-- Top Row: Icon + Title + Status Badge -->
+    <g transform="translate(20, 20)">
+      <rect width="36" height="36" rx="8" fill="#0f172a" stroke="#ff354f" stroke-width="1" />
+      <path d="M 12 24 L 18 16 L 24 20 L 30 12" stroke="#ff758c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      
+      <text x="48" y="18" fill="#ffffff" class="font-main" font-size="16" font-weight="800">StockPilot AI</text>
+      <text x="48" y="32" fill="#ff758c" class="font-mono" font-size="10" font-weight="600">INVENTORY &amp; MSME PREDICTION</text>
+      
+      <!-- Status Badge -->
+      <g transform="translate(265, 4)">
+        <rect width="91" height="20" rx="10" fill="#4c0519" stroke="#ff354f" stroke-width="0.8" />
+        <circle cx="10" cy="10" r="3" fill="#ff354f" />
+        <text x="18" y="14" fill="#fca5a5" class="font-mono" font-size="9" font-weight="700">● REPOSITORY</text>
+      </g>
+    </g>
+
+    <!-- Description -->
+    <text x="20" y="86" fill="#cbd5e1" class="font-main" font-size="12">
+      Intelligent inventory forecasting, supply tracking &amp; financial
+    </text>
+    <text x="20" y="104" fill="#94a3b8" class="font-main" font-size="12">
+      optimization engine tailored for Indian small &amp; medium businesses.
+    </text>
+
+    <!-- Tech Stack Chips -->
+    <g transform="translate(20, 126)">
+      <rect width="76" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="38" y="15" fill="#38bdf8" class="font-mono" font-size="9.5" text-anchor="middle">TypeScript</text>
+
+      <rect x="84" width="56" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="112" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Next.js</text>
+
+      <rect x="148" width="62" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="179" y="15" fill="#a855f7" class="font-mono" font-size="9.5" text-anchor="middle">AI / ML</text>
+
+      <rect x="218" width="76" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.7" />
+      <text x="256" y="15" fill="#f8fafc" class="font-mono" font-size="9.5" text-anchor="middle">Analytics</text>
+    </g>
+
+    <!-- URL Indicator -->
+    <g transform="translate(20, 168)">
+      <text x="0" y="12" fill="#ff758c" class="font-mono" font-size="10.5">🐙 github.com/.../StockPilot-AI</text>
+      <text x="310" y="12" fill="#94a3b8" class="font-main" font-size="10.5">Code →</text>
+    </g>
+  </g>
+</svg>

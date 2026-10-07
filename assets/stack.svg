@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#0c1428" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d162d" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#080e1c" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" />
+      <stop offset="50%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#ff354f" />
+    </linearGradient>
+
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.4" />
+      <circle cx="30" cy="30" r="0.8" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowSubtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-main { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    
+    @keyframes orbitRotate1 {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes orbitRotate2 {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes pulseCore {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+    .rot-1 { transform-origin: 460px 145px; animation: orbitRotate1 36s linear infinite; }
+    .rot-2 { transform-origin: 460px 145px; animation: orbitRotate2 48s linear infinite; }
+    .core-pulse { transform-origin: 460px 145px; animation: pulseCore 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="920" height="460" rx="16" fill="url(#bgGrad)" />
+  <rect width="920" height="460" rx="16" fill="url(#gridPattern)" />
+  <rect x="1" y="1" width="918" height="458" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.2" stroke-opacity="0.4" />
+
+  <!-- Ambient Glowing Nebulae -->
+  <circle cx="460" cy="145" r="160" fill="#247bff" opacity="0.12" filter="url(#glowEffect)" />
+  <circle cx="200" cy="280" r="140" fill="#9333ea" opacity="0.08" filter="url(#glowEffect)" />
+  <circle cx="720" cy="280" r="140" fill="#ff354f" opacity="0.08" filter="url(#glowEffect)" />
+
+  <!-- Top Section Tag -->
+  <g transform="translate(36, 26)">
+    <text x="0" y="12" fill="#38bdf8" class="font-mono" font-size="11" font-weight="700" letter-spacing="1.5">03 // TECH CONSTELLATION &amp; ARSENAL</text>
+    <text x="320" y="12" fill="#64748b" class="font-main" font-size="11.5">Architected for Scalability • Intelligence • Modern Craftsmanship</text>
+  </g>
+
+  <!-- ================= ORBITAL RADAR SYSTEM ================= -->
+  <!-- Outer Elliptical Orbit 3 -->
+  <ellipse cx="460" cy="145" rx="380" ry="85" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="8 6" opacity="0.5" />
+
+  <!-- Middle Elliptical Orbit 2 -->
+  <ellipse cx="460" cy="145" rx="280" ry="65" fill="none" stroke="#247bff" stroke-width="1" stroke-dasharray="10 8" opacity="0.6" />
+
+  <!-- Inner Elliptical Orbit 1 -->
+  <ellipse cx="460" cy="145" rx="180" ry="45" fill="none" stroke="#ff354f" stroke-width="1.2" stroke-dasharray="6 6" opacity="0.65" />
+
+  <!-- Animated Orbit Nodes (Layer 1 - Inner Orbit) -->
+  <!-- Node: Next.js -->
+  <g transform="translate(290, 125)">
+    <rect x="-38" y="-14" width="76" height="28" rx="14" fill="#0f172a" stroke="#ffffff" stroke-width="1" stroke-opacity="0.7" />
+    <text x="0" y="4" fill="#ffffff" class="font-main" font-size="11.5" font-weight="800" text-anchor="middle">▲ Next.js</text>
+  </g>
+
+  <!-- Node: React -->
+  <g transform="translate(630, 125)">
+    <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#0f172a" stroke="#00d8ff" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#00d8ff" class="font-main" font-size="11.5" font-weight="700" text-anchor="middle">⚛ React</text>
+  </g>
+
+  <!-- Node: TypeScript -->
+  <g transform="translate(380, 175)">
+    <rect x="-42" y="-14" width="84" height="28" rx="14" fill="#0f172a" stroke="#3178c6" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#38bdf8" class="font-main" font-size="11.5" font-weight="700" text-anchor="middle">TS TypeScript</text>
+  </g>
+
+  <!-- Node: Python -->
+  <g transform="translate(540, 175)">
+    <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#0f172a" stroke="#ffd43b" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#ffd43b" class="font-main" font-size="11.5" font-weight="700" text-anchor="middle">🐍 Python</text>
+  </g>
+
+  <!-- Orbit Nodes (Layer 2 - Middle Orbit) -->
+  <!-- Node: Flutter -->
+  <g transform="translate(190, 145)">
+    <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#0f172a" stroke="#02569b" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#29b6f6" class="font-main" font-size="11" font-weight="700" text-anchor="middle">💙 Flutter</text>
+  </g>
+
+  <!-- Node: Tailwind CSS -->
+  <g transform="translate(730, 145)">
+    <rect x="-44" y="-14" width="88" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#38bdf8" class="font-main" font-size="11" font-weight="700" text-anchor="middle">🌊 Tailwind</text>
+  </g>
+
+  <!-- Node: PostgreSQL -->
+  <g transform="translate(240, 85)">
+    <rect x="-46" y="-14" width="92" height="28" rx="14" fill="#0f172a" stroke="#336791" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#60a5fa" class="font-main" font-size="11" font-weight="700" text-anchor="middle">🐘 PostgreSQL</text>
+  </g>
+
+  <!-- Node: Firebase -->
+  <g transform="translate(680, 85)">
+    <rect x="-40" y="-14" width="80" height="28" rx="14" fill="#0f172a" stroke="#ffca28" stroke-width="1" stroke-opacity="0.8" />
+    <text x="0" y="4" fill="#f59e0b" class="font-main" font-size="11" font-weight="700" text-anchor="middle">🔥 Firebase</text>
+  </g>
+
+  <!-- Orbit Nodes (Layer 3 - Outer Orbit) -->
+  <!-- Node: Node.js -->
+  <g transform="translate(100, 125)">
+    <rect x="-35" y="-13" width="70" height="26" rx="13" fill="#0f172a" stroke="#68a063" stroke-width="0.8" />
+    <text x="0" y="4" fill="#86efac" class="font-main" font-size="10.5" font-weight="600" text-anchor="middle">🟢 Node.js</text>
+  </g>
+
+  <!-- Node: C/C++ -->
+  <g transform="translate(820, 125)">
+    <rect x="-32" y="-13" width="64" height="26" rx="13" fill="#0f172a" stroke="#00599c" stroke-width="0.8" />
+    <text x="0" y="4" fill="#93c5fd" class="font-main" font-size="10.5" font-weight="600" text-anchor="middle">⚡ C / C++</text>
+  </g>
+
+  <!-- Node: Git & GitHub -->
+  <g transform="translate(340, 65)">
+    <rect x="-34" y="-13" width="68" height="26" rx="13" fill="#0f172a" stroke="#f05032" stroke-width="0.8" />
+    <text x="0" y="4" fill="#f87171" class="font-main" font-size="10.5" font-weight="600" text-anchor="middle">🐙 Git/Hub</text>
+  </g>
+
+  <!-- Node: Figma -->
+  <g transform="translate(580, 65)">
+    <rect x="-32" y="-13" width="64" height="26" rx="13" fill="#0f172a" stroke="#f24e1e" stroke-width="0.8" />
+    <text x="0" y="4" fill="#f43f5e" class="font-main" font-size="10.5" font-weight="600" text-anchor="middle">🎨 Figma</text>
+  </g>
+
+  <!-- Center Hub: Glowing Core Reactor -->
+  <g transform="translate(460, 145)">
+    <!-- Ambient Pulse Ring -->
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#247bff" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6" class="rot-1" />
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#ff354f" stroke-width="1.8" opacity="0.8" filter="url(#glowSubtle)" />
+    
+    <!-- Central Base -->
+    <circle cx="0" cy="0" r="32" fill="#090e1c" stroke="url(#accentGrad)" stroke-width="2" class="core-pulse" />
+    
+    <!-- GitHub Mark in Center -->
+    <path d="M 0 -18 C -9.9 -18 -18 -9.9 -18 0 C -18 7.9 -12.9 14.6 -5.8 17 C -4.9 17.2 -4.5 16.6 -4.5 16.1 C -4.5 15.7 -4.5 14.4 -4.5 13 C -9.5 14 -10.6 10.6 -10.6 10.6 C -11.4 8.5 -12.6 8 -12.6 8 C -14.2 6.9 -12.5 6.9 -12.5 6.9 C -10.7 7 -9.8 8.7 -9.8 8.7 C -8.2 11.4 -5.7 10.6 -4.7 10.2 C -4.5 9.1 -4.1 8.3 -3.6 7.8 C -7.6 7.4 -11.8 5.8 -11.8 -1 C -11.8 -3 -11.1 -4.6 -9.9 -5.9 C -10.1 -6.4 -10.7 -8.3 -9.7 -10.7 C -9.7 -10.7 -8.2 -11.2 -4.8 -8.9 C -3.3 -9.3 -1.8 -9.5 0 -9.5 C 1.8 -9.5 3.3 -9.3 4.8 -8.9 C 8.2 -11.2 9.7 -10.7 9.7 -10.7 C 10.7 -8.3 10.1 -6.4 9.9 -5.9 C 11.1 -4.6 11.8 -3 11.8 1 C 11.8 5.8 7.6 7.4 3.5 7.8 C 4.1 8.3 4.6 9.3 4.6 10.8 C 4.6 12.9 4.6 15.3 4.6 16.1 C 4.6 16.6 5 17.2 5.9 17 C 12.9 14.6 18 7.9 18 0 C 18 -9.9 9.9 -18 0 -18 Z" fill="#ffffff" transform="scale(0.85)" />
+  </g>
+
+  <!-- ================= GROUPED TECH ARSENAL PANELS ================= -->
+  <g transform="translate(32, 260)">
+    <!-- 4 Specialized Cards -->
+    <!-- Card 1: Core Languages -->
+    <g transform="translate(0, 0)">
+      <rect width="202" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="0.8" />
+      <text x="16" y="24" fill="#38bdf8" class="font-mono" font-size="11" font-weight="700">01 // LANGUAGES</text>
+      <g transform="translate(16, 42)">
+        <text x="0" y="0" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Python <tspan fill="#64748b">(AI, ML, Data)</tspan></text>
+        <text x="0" y="22" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• TypeScript <tspan fill="#64748b">(Strict Types)</tspan></text>
+        <text x="0" y="44" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• JavaScript <tspan fill="#64748b">(ES6+, Modern)</tspan></text>
+        <text x="0" y="66" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Dart <tspan fill="#64748b">(Flutter Apps)</tspan></text>
+        <text x="0" y="88" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• C / C++ <tspan fill="#64748b">(Core Algorithms)</tspan></text>
+        <text x="0" y="110" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• SQL <tspan fill="#64748b">(Relational Query)</tspan></text>
+      </g>
+    </g>
+
+    <!-- Card 2: Frameworks & UI -->
+    <g transform="translate(218, 0)">
+      <rect width="202" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="0.8" />
+      <text x="16" y="24" fill="#ff758c" class="font-mono" font-size="11" font-weight="700">02 // FRAMEWORKS</text>
+      <g transform="translate(16, 42)">
+        <text x="0" y="0" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Next.js <tspan fill="#64748b">(App Router, SSR)</tspan></text>
+        <text x="0" y="22" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• React.js <tspan fill="#64748b">(State, Hooks)</tspan></text>
+        <text x="0" y="44" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Flutter <tspan fill="#64748b">(Cross-Platform)</tspan></text>
+        <text x="0" y="66" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Tailwind CSS <tspan fill="#64748b">(Design UI)</tspan></text>
+        <text x="0" y="88" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Node.js <tspan fill="#64748b">(REST Services)</tspan></text>
+        <text x="0" y="110" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• HTML5 &amp; CSS3 <tspan fill="#64748b">(Responsive)</tspan></text>
+      </g>
+    </g>
+
+    <!-- Card 3: Backend & Data -->
+    <g transform="translate(436, 0)">
+      <rect width="202" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="0.8" />
+      <text x="16" y="24" fill="#a855f7" class="font-mono" font-size="11" font-weight="700">03 // DATA &amp; CLOUD</text>
+      <g transform="translate(16, 42)">
+        <text x="0" y="0" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• PostgreSQL <tspan fill="#64748b">(Production)</tspan></text>
+        <text x="0" y="22" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Firebase <tspan fill="#64748b">(Realtime &amp; Auth)</tspan></text>
+        <text x="0" y="44" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Supabase <tspan fill="#64748b">(Postgres BaaS)</tspan></text>
+        <text x="0" y="66" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• REST APIs <tspan fill="#64748b">(Integration)</tspan></text>
+        <text x="0" y="88" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• AI/ML Pipelines <tspan fill="#64748b">(Scikit, DL)</tspan></text>
+        <text x="0" y="110" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Vercel <tspan fill="#64748b">(Edge Deployment)</tspan></text>
+      </g>
+    </g>
+
+    <!-- Card 4: Tools & Architecture -->
+    <g transform="translate(654, 0)">
+      <rect width="202" height="175" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="0.8" />
+      <text x="16" y="24" fill="#10b981" class="font-mono" font-size="11" font-weight="700">04 // DEV TOOLS</text>
+      <g transform="translate(16, 42)">
+        <text x="0" y="0" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Git &amp; GitHub <tspan fill="#64748b">(VCS Flow)</tspan></text>
+        <text x="0" y="22" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• VS Code <tspan fill="#64748b">(Modern IDE)</tspan></text>
+        <text x="0" y="44" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Figma <tspan fill="#64748b">(UI/UX Prototype)</tspan></text>
+        <text x="0" y="66" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Linux &amp; Bash <tspan fill="#64748b">(Environment)</tspan></text>
+        <text x="0" y="88" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Postman <tspan fill="#64748b">(API Testing)</tspan></text>
+        <text x="0" y="110" fill="#f8fafc" class="font-main" font-size="12" font-weight="600">• Prompt Eng <tspan fill="#64748b">(LLM Workflows)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
