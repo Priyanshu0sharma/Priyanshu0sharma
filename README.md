@@ -1,8 +1,8 @@
 <div align="center">
 
 <!-- ================= 01. HERO BANNER ================= -->
-<a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/hero.svg?v=2" alt="Priyanshu Sharma - AI & Data Science Developer, Full-Stack Architect, Founder @ Root of Web" width="100%" />
+<a href="#projects" title="Explore Featured Projects">
+  <img src="./assets/hero.svg?v=3" alt="Priyanshu Sharma - AI & Data Science Developer, Full-Stack Architect, Founder @ Root of Web" width="100%" />
 </a>
 
 <br/>
@@ -29,25 +29,31 @@
 <br/>
 
 <!-- ================= 02. ABOUT & CAPABILITIES ================= -->
-<a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/about-life.svg?v=2" alt="About Priyanshu Sharma & What I Do" width="100%" />
+<a href="#tech-stack" title="View Technical Skills">
+  <img src="./assets/about-life.svg?v=3" alt="About Priyanshu Sharma & What I Do" width="100%" />
 </a>
 
 <br/><br/>
+
+<a id="tech-stack"></a>
 
 <!-- ================= 03. TECH CONSTELLATION ================= -->
-<a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/stack.svg?v=2" alt="Tech Stack Constellation & Arsenal" width="100%" />
+<a href="#projects" title="View Flagship Projects">
+  <img src="./assets/stack.svg?v=3" alt="Tech Stack Constellation & Arsenal" width="100%" />
 </a>
 
 <br/><br/>
 
+<a id="projects"></a>
+
 <!-- ================= 04. FEATURED PROJECTS ================= -->
-<a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/projects.svg?v=2" alt="Featured Flagship Projects" width="100%" />
+<a href="#projects-table" title="Jump to Project Repositories & Links">
+  <img src="./assets/projects.svg?v=3" alt="Featured Flagship Projects" width="100%" />
 </a>
 
 </div>
+
+<a id="projects-table"></a>
 
 ### 🚀 Direct Access: Flagship Products & Repositories
 
@@ -64,8 +70,8 @@
 <div align="center">
 
 <!-- ================= 05. ID & DASHBOARD ================= -->
-<a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/id-dashboard.svg?v=2" alt="Builder ID & Activity Dashboard" width="100%" />
+<a href="#contact" title="Get in Touch with Priyanshu Sharma">
+  <img src="./assets/id-dashboard.svg?v=3" alt="Builder ID & Activity Dashboard" width="100%" />
 </a>
 
 <br/><br/>
@@ -89,11 +95,13 @@
 <br/>
 
 <!-- ================= 06. CONNECT ================= -->
-<a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/connect.svg?v=2" alt="Let's Build Something Great" width="100%" />
+<a href="#contact" title="Let's Build Something Great - Contact Links Below">
+  <img src="./assets/connect.svg?v=3" alt="Let's Build Something Great" width="100%" />
 </a>
 
 <br/>
+
+<a id="contact"></a>
 
 ### ⚡ Direct Contact & Social Networks
 
