@@ -1,41 +1,51 @@
 <div align="center">
 
 <!-- ================= 01. HERO BANNER ================= -->
-<a href="#-featured-projects">
-  <img src="./assets/hero.svg?v=1" alt="Hey, I'm Priyanshu Sharma - AI & Data Science Developer, Full-Stack Developer, Founder @ Root of Web" width="100%" />
+<a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/hero.svg?v=2" alt="Priyanshu Sharma - AI & Data Science Developer, Full-Stack Architect, Founder @ Root of Web" width="100%" />
 </a>
 
 <br/>
 
-<!-- ================= QUICK CALL TO ACTION ================= -->
+<!-- ================= NAVIGATION & QUICK CTAs ================= -->
 <p align="center">
-  <a href="#-featured-projects">
-    <img src="https://img.shields.io/badge/Explore%20Work-247BFF?style=for-the-badge&logo=rocket&logoColor=white" alt="Explore Work" />
+  <a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Root%20of%20Web-00D2FE?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Agency Platform" />
   </a>
   &nbsp;
-  <a href="#-lets-connect">
-    <img src="https://img.shields.io/badge/Let's%20Connect-FF354F?style=for-the-badge&logo=codeforces&logoColor=white" alt="Let's Connect" />
+  <a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://root-of-web.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Root%20of%20Web-00D2FE?style=for-the-badge&logo=vercel&logoColor=white" alt="Agency Platform" />
+  <a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Repositories-247BFF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Repositories" />
+  </a>
+  &nbsp;
+  <a href="mailto:priyanshusharma1141@gmail.com">
+    <img src="https://img.shields.io/badge/Contact%20Me-FF354F?style=for-the-badge&logo=gmail&logoColor=white" alt="Let's Connect" />
   </a>
 </p>
 
 <br/>
 
 <!-- ================= 02. ABOUT & CAPABILITIES ================= -->
-<img src="./assets/about-life.svg?v=1" alt="About Priyanshu Sharma & What I Do" width="100%" />
+<a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/about-life.svg?v=2" alt="About Priyanshu Sharma & What I Do" width="100%" />
+</a>
 
 <br/><br/>
 
 <!-- ================= 03. TECH CONSTELLATION ================= -->
-<img src="./assets/stack.svg?v=1" alt="Tech Stack Constellation & Arsenal" width="100%" />
+<a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/stack.svg?v=2" alt="Tech Stack Constellation & Arsenal" width="100%" />
+</a>
 
 <br/><br/>
 
 <!-- ================= 04. FEATURED PROJECTS ================= -->
-<img src="./assets/projects.svg?v=1" alt="Featured Flagship Projects" width="100%" />
+<a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/projects.svg?v=2" alt="Featured Flagship Projects" width="100%" />
+</a>
 
 </div>
 
@@ -54,7 +64,9 @@
 <div align="center">
 
 <!-- ================= 05. ID & DASHBOARD ================= -->
-<img src="./assets/id-dashboard.svg?v=1" alt="Builder ID & Activity Dashboard" width="100%" />
+<a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/id-dashboard.svg?v=2" alt="Builder ID & Activity Dashboard" width="100%" />
+</a>
 
 <br/><br/>
 
@@ -62,12 +74,12 @@
 <table border="0" width="100%">
   <tr>
     <td align="center" width="50%">
-      <a href="https://github.com/Priyanshu0sharma">
+      <a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
         <img src="https://github-readme-stats.vercel.app/api?username=Priyanshu0sharma&show_icons=true&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&icon_color=ff354f&border_color=247bff&hide_border=false" alt="Priyanshu Sharma GitHub Stats" width="100%" />
       </a>
     </td>
     <td align="center" width="50%">
-      <a href="https://github.com/Priyanshu0sharma">
+      <a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu0sharma&layout=compact&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&border_color=247bff&hide_border=false" alt="Top Languages" width="100%" />
       </a>
     </td>
@@ -77,18 +89,20 @@
 <br/>
 
 <!-- ================= 06. CONNECT ================= -->
-<img src="./assets/connect.svg?v=1" alt="Let's Build Something Great" width="100%" />
+<a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/connect.svg?v=2" alt="Let's Build Something Great" width="100%" />
+</a>
 
 <br/>
 
-### ⚡ Verified Contact & Social Networks
+### ⚡ Direct Contact & Social Networks
 
 <p align="center">
-  <a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank">
+  <a href="https://linkedin.com/in/priyanshu-sharma-70277b303" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://github.com/Priyanshu0sharma" target="_blank">
+  <a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
@@ -96,15 +110,15 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://root-of-web.vercel.app" target="_blank">
+  <a href="https://root-of-web.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Root_of_Web-247BFF?style=for-the-badge&logo=vercel&logoColor=white" alt="Root of Web" />
   </a>
   &nbsp;
-  <a href="https://instagram.com/priyanshu0sharma" target="_blank">
+  <a href="https://instagram.com/priyanshu0sharma" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   &nbsp;
-  <a href="https://x.com/Priyanshu1131" target="_blank">
+  <a href="https://x.com/Priyanshu1131" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
   </a>
 </p>
