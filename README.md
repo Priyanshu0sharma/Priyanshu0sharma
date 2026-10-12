@@ -1,9 +1,7 @@
 <div align="center">
 
 <!-- ================= 01. HERO BANNER ================= -->
-<a href="#projects" title="Explore Featured Projects">
-  <img src="./assets/hero.svg?v=3" alt="Priyanshu Sharma - AI & Data Science Developer, Full-Stack Architect, Founder @ Root of Web" width="100%" />
-</a>
+<img src="./assets/hero.svg" alt="Priyanshu Sharma - AI &amp; Data Science Developer, Full-Stack Architect, Founder @ Root of Web" width="100%" />
 
 <br/>
 
@@ -29,31 +27,19 @@
 <br/>
 
 <!-- ================= 02. ABOUT & CAPABILITIES ================= -->
-<a href="#tech-stack" title="View Technical Skills">
-  <img src="./assets/about-life.svg?v=3" alt="About Priyanshu Sharma & What I Do" width="100%" />
-</a>
+<img src="./assets/about-life.svg" alt="About Priyanshu Sharma &amp; What I Do" width="100%" />
 
 <br/><br/>
-
-<a id="tech-stack"></a>
 
 <!-- ================= 03. TECH CONSTELLATION ================= -->
-<a href="#projects" title="View Flagship Projects">
-  <img src="./assets/stack.svg?v=3" alt="Tech Stack Constellation & Arsenal" width="100%" />
-</a>
+<img src="./assets/stack.svg" alt="Tech Stack Constellation &amp; Arsenal" width="100%" />
 
 <br/><br/>
 
-<a id="projects"></a>
-
 <!-- ================= 04. FEATURED PROJECTS ================= -->
-<a href="#projects-table" title="Jump to Project Repositories & Links">
-  <img src="./assets/projects.svg?v=3" alt="Featured Flagship Projects" width="100%" />
-</a>
+<img src="./assets/projects.svg" alt="Featured Flagship Projects" width="100%" />
 
 </div>
-
-<a id="projects-table"></a>
 
 ### 🚀 Direct Access: Flagship Products & Repositories
 
@@ -70,38 +56,27 @@
 <div align="center">
 
 <!-- ================= 05. ID & DASHBOARD ================= -->
-<a href="#contact" title="Get in Touch with Priyanshu Sharma">
-  <img src="./assets/id-dashboard.svg?v=3" alt="Builder ID & Activity Dashboard" width="100%" />
-</a>
+<img src="./assets/id-dashboard.svg" alt="Builder ID &amp; Activity Dashboard" width="100%" />
 
 <br/><br/>
 
 <!-- ================= VERIFIED GITHUB LIVE DYNAMICS ================= -->
-<table border="0" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
-        <img src="https://github-readme-stats.vercel.app/api?username=Priyanshu0sharma&show_icons=true&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&icon_color=ff354f&border_color=247bff&hide_border=false" alt="Priyanshu Sharma GitHub Stats" width="100%" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu0sharma&layout=compact&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&border_color=247bff&hide_border=false" alt="Top Languages" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Priyanshu0sharma" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api?username=Priyanshu0sharma&show_icons=true&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&icon_color=ff354f&border_color=247bff&hide_border=false" alt="Priyanshu Sharma GitHub Stats" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Priyanshu0sharma?tab=repositories" target="_blank" rel="noopener noreferrer">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu0sharma&layout=compact&bg_color=070b16&title_color=38bdf8&text_color=94a3b8&border_color=247bff&hide_border=false" alt="Top Languages" />
+  </a>
+</p>
 
 <br/>
 
 <!-- ================= 06. CONNECT ================= -->
-<a href="#contact" title="Let's Build Something Great - Contact Links Below">
-  <img src="./assets/connect.svg?v=3" alt="Let's Build Something Great" width="100%" />
-</a>
+<img src="./assets/connect.svg" alt="Let's Build Something Great" width="100%" />
 
 <br/>
-
-<a id="contact"></a>
 
 ### ⚡ Direct Contact & Social Networks
 

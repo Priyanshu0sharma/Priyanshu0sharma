@@ -39,6 +39,19 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+  
+    <radialGradient id="nebulaBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nebulaCrimson" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nebulaPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
   <style>
@@ -50,6 +63,10 @@
       50% { stroke-opacity: 0.7; }
     }
     .pulse-border { animation: pulseCard 4s ease-in-out infinite; }
+  
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
   </style>
 
   <!-- Background Canvas -->
@@ -58,8 +75,8 @@
   <rect x="1" y="1" width="918" height="518" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.2" stroke-opacity="0.4" />
 
   <!-- Ambient Flares -->
-  <circle cx="200" cy="180" r="180" fill="#247bff" opacity="0.08" filter="url(#glowEffect)" />
-  <circle cx="700" cy="240" r="200" fill="#ff354f" opacity="0.07" filter="url(#glowEffect)" />
+  <circle cx="200" cy="180" r="180" fill="url(#nebulaBlue)" />
+  <circle cx="700" cy="240" r="200" fill="url(#nebulaCrimson)" />
 
   <!-- ================= LEFT COLUMN: 01. ABOUT ME ================= -->
   <g transform="translate(32, 28)">
