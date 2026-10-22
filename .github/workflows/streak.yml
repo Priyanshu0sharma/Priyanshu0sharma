@@ -1,0 +1,33 @@
+name: Daily Streak Bot
+
+on:
+  schedule:
+    # 04:30 UTC = 10:00 AM IST (UTC+5:30)
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Streak Update Script
+        run: python .update_streak.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Priyanshu0sharma"
+          git config --global user.email "priyanshusharma1131@gmail.com"
+          git add .streak_log.txt
+          git commit -m "chore(streak): automated background update [skip ci]" || exit 0
+          git push
